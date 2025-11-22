@@ -1,4 +1,4 @@
-on app1
+on app1 - business logic
 
 nsg 5000 port open
 New-NetFirewallRule -DisplayName "Allow Port 5000" -Direction Inbound -Protocol TCP -LocalPort 5000 -Action Allow
@@ -7,3 +7,4 @@ python install
 pip install flask flask-cors mysql-connector-python
 
 C:\python\app.py
+
